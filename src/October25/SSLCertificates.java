@@ -23,6 +23,7 @@ public class SSLCertificates {
 
         ChromeOptions options = new ChromeOptions();
         options.merge(capability);
+//        options.addArguments()
         WebDriver driver = new ChromeDriver(options);
 
 
